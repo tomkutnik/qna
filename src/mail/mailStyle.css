@@ -1,0 +1,148 @@
+.left{
+    position: relative;
+   float: left;
+    left: -80px;
+    top: -15px;
+}
+
+.right{
+    float: right;
+}
+
+.mailArea{
+    margin-top: 100px;
+    display: block;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    background-color: #2dabf9;
+    border-radius: 30px;
+    outline: hidden;
+
+  
+}
+
+.mailArea-oper{
+    margin-top: 22px;
+    display: block;
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    background-color: #2dabf9;
+    border-radius: 30px;
+    outline: hidden;
+    overflow-y: auto;
+}
+
+.mailInputBar{
+    display: block;
+    margin: auto;
+    margin-top: -10px;
+    width: 300px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #0688fa;
+    background-color: #7ccdff;;
+    color: #00436d;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+
+
+.mailTextArea{
+    display: block;
+    margin: auto;
+    margin-top: -10px;
+    width: 300px;
+    height: 200px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #0688fa;
+    background-color: #7ccdff;;
+    color: #00436d;;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.mailTextArea-reply{
+    width: 55vw;
+    height: 43vh;
+}
+
+
+
+.mailBtn{
+    display: block;
+    margin: auto;
+    margin-top: -10px;
+    box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius: 17px;
+	border:1px solid #0b0e07;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+
+.mailBtn-oper{
+    margin-top: 5px;
+    padding: 9px 9px;
+}
+
+h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+.mailHeader{
+    margin-top: 5px;
+    width: 400px;
+    box-shadow:inset 0px -3px 7px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:3px;
+	border:1px solid #0b0e07;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+
+.mailMsg{
+    width: 400px;
+    padding: 20px;
+    height: fit-content;
+    background-color: #7ccdff;
+    color: #00436d;
+}
+
+.mailReplyArea{
+    color: #00436d;
+    font-weight: 1000;
+    line-height: 220%;
+    position: fixed;
+    z-index: 100;
+    top: 10vh;
+    left: 20vw;
+    height: 80vh;
+    width: 60vw;
+    transform: translate(30% 50%);
+    background-color: #2dabf9;
+    padding: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 19px 10px rgba(0, 0, 0, 0.82);
+    box-shadow: 0px 0px 19px 10px rgba(0, 0, 0, 0.82);
+}
+
+
